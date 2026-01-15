@@ -1,6 +1,6 @@
 package link.jaeger.steuerabzug3a;
 
-public enum Steuerabzug3a {
+enum Steuerabzug3a {
 
     // ENUM constants based on the PDF "Chronologische Entwicklung der Gesetzgebung"
     // https://www.estv.admin.ch/estv/de/home/die-estv/steuerstatistiken-estv/allgemeine-steuerstatistiken/fiskaleinnahmen-des-bundes.html
@@ -48,12 +48,12 @@ public enum Steuerabzug3a {
     JAHR_2026(7258,36288);
 
     // Field to store the maximal deductible amount in CHF with an affiliation to the 2nd pillar
-    private int mitZweiteSaeule;
+    final private int mitZweiteSaeule;
     // Field to store the maximal deductible amount in CHF without an affiliation to the 2nd pillar
-    private int ohneZweiteSaeule;
+    final private int ohneZweiteSaeule;
 
     // Constructor
-    private Steuerabzug3a(int mitZweiteSaeule , int ohneZweiteSaeule) {
+    Steuerabzug3a(int mitZweiteSaeule , int ohneZweiteSaeule) {
         this.mitZweiteSaeule = mitZweiteSaeule;
         this.ohneZweiteSaeule = ohneZweiteSaeule;
     }
