@@ -1,3 +1,5 @@
+package link.jaeger.steuerabzug3a;
+
 public enum Steuerabzug3a {
 
     // ENUM constants based on the PDF "Chronologische Entwicklung der Gesetzgebung"
