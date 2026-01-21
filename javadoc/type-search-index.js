@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"link.jaeger.steuerabzug3a.exceptions","l":"InvalidMinimalYearException"},{"p":"link.jaeger.steuerabzug3a","l":"Steuerabzug3a"},{"p":"link.jaeger.steuerabzug3a.exceptions","l":"UnsupportedMaximalYearException"}];updateSearchResults();
