@@ -1,7 +1,7 @@
 # Steuerabzug3a
 
 ## Description
-Java enumeration with the values for the maximum deductible amounts of the [Swiss third pillar](https://www.bsv.admin.ch/de/die-dritte-saeule).
+Java enumeration with the values for the maximum deductible amounts of the [Swiss third pillar](https://www.bsv.admin.ch/de/die-dritte-saeule) in tied pension savings 3a.
 
 ## Usage
 Call the static methods of the `Steuerabzug3a` class to get the maximum deductible amount for a provided year. 
