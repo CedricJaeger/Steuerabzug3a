@@ -26,7 +26,6 @@ public final class Steuerabzug3a {
      * @return the maximal deductible amount in CHF.
      * @throws InvalidMinimalYearException is thrown when the year is before {@link Steuerabzug3a#MIN_SUPPORTED_YEAR}.
      * @throws UnsupportedMaximalYearException is thrown when the year is after {@link Steuerabzug3a#MAX_SUPPORTED_YEAR}.
-     *
      */
     public static int mitZweiteSaeule(int jahr) {
         if (jahr < MIN_SUPPORTED_YEAR) {
