@@ -3,6 +3,15 @@
 ## Description
 Java enumeration with the values for the maximum deductible amounts of the [Swiss third pillar](https://www.bsv.admin.ch/de/die-dritte-saeule).
 
+## Usage
+Call the static methods of the `Steuerabzug3a` class to get the maximum deductible amount for a provided year. 
+
+### Example 1
+`int maximalAmountWithAffiliationForYear2025 = Steuerabzug3a.mitZweiteSaeule(2025);`
+
+### Example 2
+`int maximalAmountWithoutAffiliationForYear2025 = Steuerabzug3a.ohneZweiteSaeule(2025);`
+
 ## Source of the data
 The current year is obtained from the [Federal Social Insurance Office](https://www.bsv.admin.ch/de/die-dritte-saeule#Steuerabzug) (FSIO) website directly.
 
