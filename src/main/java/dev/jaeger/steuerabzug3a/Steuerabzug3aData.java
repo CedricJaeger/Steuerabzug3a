@@ -125,7 +125,7 @@ enum Steuerabzug3aData {
      * @return the maximal deductible amount.
      */
     public int mitZweiteSaeule() {
-        return mitZweiteSaeule;
+        return this.mitZweiteSaeule;
     }
 
     /**
@@ -134,7 +134,7 @@ enum Steuerabzug3aData {
      * @return the maximal deductible amount.
      */
     public int ohneZweiteSaeule() {
-        return ohneZweiteSaeule;
+        return this.ohneZweiteSaeule;
     }
 
 }
