@@ -8,7 +8,7 @@ package dev.jaeger.steuerabzug3a;
  * <a href="https://www.estv.admin.ch/estv/de/home/die-estv/steuerstatistiken-estv/allgemeine-steuerstatistiken/fiskaleinnahmen-des-bundes.html">Chronologische Entwicklung der Gesetzgebung</a>".
  *
  * @author Cédric Jäger
- * @version 2026.1.0
+ * @version 2027.1.0
  */
 enum Steuerabzug3aData {
 
@@ -95,7 +95,9 @@ enum Steuerabzug3aData {
     /** Amounts for the fiscal year 2025 */
     JAHR_2025(7258, 36288),
     /** Amounts for the fiscal year 2026 */
-    JAHR_2026(7258, 36288);
+    JAHR_2026(7258, 36288),
+    /** Amounts for the fiscal year 2027 */
+    JAHR_2027(Integer.MIN_VALUE, Integer.MIN_VALUE); // TODO Preparing version 2027, change values, when they are known
 
     /**
      * Field to store the maximal deductible amount in CHF with an affiliation to the second pillar

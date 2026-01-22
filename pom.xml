@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.jaeger</groupId>
   <artifactId>steuerabzug3a</artifactId>
-  <version>2026.1.0</version>
+  <version>2027.1.0-SNAPSHOT</version>
 
   <name>Steuerabzug 3a Utility Class</name>
   <description>Java utility class with the values for the maximum deductible amounts of the swiss third pillar in tied pension savings 3a.</description>
