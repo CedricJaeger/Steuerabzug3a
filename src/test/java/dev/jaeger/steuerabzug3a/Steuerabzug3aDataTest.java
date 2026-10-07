@@ -467,4 +467,15 @@ public class Steuerabzug3aDataTest {
     void testSteuerabzug3a2026OhneZweiteSaeule() {
         assertEquals(36288, Steuerabzug3aData.JAHR_2026.ohneZweiteSaeule());
     }
+
+        @Test
+    void testSteuerabzug3a2027MitZweiteSaeule() {
+        assertEquals(7373, Steuerabzug3aData.JAHR_2027.mitZweiteSaeule());
+    }
+
+    @Test
+    void testSteuerabzug3a2027OhneZweiteSaeule() {
+        assertEquals(36864, Steuerabzug3aData.JAHR_2027.ohneZweiteSaeule());
+    }
+    
 }
