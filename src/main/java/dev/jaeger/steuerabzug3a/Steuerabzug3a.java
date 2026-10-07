@@ -6,7 +6,7 @@ import dev.jaeger.steuerabzug3a.exceptions.UnsupportedMaximalYearException;
 /**
  * Utility class to get the maximal deductible amount for a given fiscal year
  *
- * @version 2026.1.0
+ * @version 2027.1.0
  * @author Cédric Jäger
  */
 public final class Steuerabzug3a {
@@ -14,7 +14,7 @@ public final class Steuerabzug3a {
     /** The minimal fiscal year which is supported. */
     static final int MIN_SUPPORTED_YEAR = 1985;
     /** The maximal fiscal year which is supported. */
-    static final int MAX_SUPPORTED_YEAR = 2026;
+    static final int MAX_SUPPORTED_YEAR = 2027;
 
     private Steuerabzug3a() {}
 
