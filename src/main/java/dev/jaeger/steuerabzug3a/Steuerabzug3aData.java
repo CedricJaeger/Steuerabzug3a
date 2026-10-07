@@ -5,7 +5,7 @@ package dev.jaeger.steuerabzug3a;
  * with and without an affiliation to the second pillar.
  * <p>
  * The data is based on the PDF document named "
- * <a href="https://www.estv.admin.ch/estv/de/home/die-estv/steuerstatistiken-estv/allgemeine-steuerstatistiken/fiskaleinnahmen-des-bundes.html">Chronologische Entwicklung der Gesetzgebung</a>".
+ * <a href="https://www.estv.admin.ch/de/fiskaleinnahmen-des-bundes">Chronologische Entwicklung der Gesetzgebung</a>".
  *
  * @author Cédric Jäger
  * @version 2027.1.0
@@ -125,7 +125,7 @@ enum Steuerabzug3aData {
      * @return the maximal deductible amount.
      */
     public int mitZweiteSaeule() {
-        return mitZweiteSaeule;
+        return this.mitZweiteSaeule;
     }
 
     /**
@@ -134,7 +134,7 @@ enum Steuerabzug3aData {
      * @return the maximal deductible amount.
      */
     public int ohneZweiteSaeule() {
-        return ohneZweiteSaeule;
+        return this.ohneZweiteSaeule;
     }
 
 }
