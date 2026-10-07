@@ -8,7 +8,7 @@ package dev.jaeger.steuerabzug3a;
  * <a href="https://www.estv.admin.ch/estv/de/home/die-estv/steuerstatistiken-estv/allgemeine-steuerstatistiken/fiskaleinnahmen-des-bundes.html">Chronologische Entwicklung der Gesetzgebung</a>".
  *
  * @author Cédric Jäger
- * @version 2026.1.0
+ * @version 2027.1.0
  */
 enum Steuerabzug3aData {
 
