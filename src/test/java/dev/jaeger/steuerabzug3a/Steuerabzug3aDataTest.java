@@ -471,12 +471,12 @@ public class Steuerabzug3aDataTest {
     // 2027
     @Test
     void testSteuerabzug3a2027MitZweiteSaeule() {
-        assertEquals(Integer.MAX_VALUE, Steuerabzug3aData.JAHR_2026.mitZweiteSaeule()); // TODO Preparing version 2027, change value, when it is known
+        assertEquals(7373, Steuerabzug3aData.JAHR_2026.mitZweiteSaeule());
     }
 
     @Test
     void testSteuerabzug3a2027OhneZweiteSaeule() {
-        assertEquals(Integer.MAX_VALUE, Steuerabzug3aData.JAHR_2026.ohneZweiteSaeule()); // TODO Preparing version 2027, change value, when it is known
+        assertEquals(36864, Steuerabzug3aData.JAHR_2026.ohneZweiteSaeule());
     }
 
 }
