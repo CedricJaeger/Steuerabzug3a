@@ -97,7 +97,7 @@ enum Steuerabzug3aData {
     /** Amounts for the fiscal year 2026 */
     JAHR_2026(7258, 36288),
     /** Amounts for the fiscal year 2027 */
-    JAHR_2027(Integer.MIN_VALUE, Integer.MIN_VALUE); // TODO Preparing version 2027, change values, when they are known
+    JAHR_2027(7373, 36864);
 
     /**
      * Field to store the maximal deductible amount in CHF with an affiliation to the second pillar
