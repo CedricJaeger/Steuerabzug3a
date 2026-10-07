@@ -63,7 +63,7 @@ The maximum deductible amount is as follows :
 | 2024 |   CHF 7'056.-    |    CHF 35'280.-     |
 | 2025 |   CHF 7'258.-    |    CHF 36'288.-     |
 | 2026 |   CHF 7'258.-    |    CHF 36'288.-     |
-| 2027 |   CHF // TODO    |     CHF // TODO     |
+| 2027 |   CHF 7'373.-    |    CHF 36'864.-     |
 
 ## Code convention
 The code is written in German. Comments, documentation, error messages are in English.
