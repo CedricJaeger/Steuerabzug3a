@@ -94,7 +94,7 @@ public class Steuerabzug3aDataTest {
         assertEquals(25920, Steuerabzug3aData.JAHR_1992.ohneZweiteSaeule());
     }
 
-    // 199
+    // 1993
     @Test
     void testSteuerabzug3a1993MitZweiteSaeule() {
         assertEquals(5414, Steuerabzug3aData.JAHR_1993.mitZweiteSaeule());
